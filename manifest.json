@@ -1,0 +1,31 @@
+{
+    "name": "Highcharts-Downsample",
+    "version": "0.1",
+    "title": "Highcharts Downsample",
+    "demo": [
+        "http://highcharts.base.is/",
+        "http://jsfiddle.net/sveinn_st/FMJAL/"
+    ],
+    "author": {
+        "name": "Sveinn Steinarsson",
+        "url": "https://github.com/sveinn-steinarsson/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "description": "This plugin downsamples the data before rendering the chart. The purpose is to try retain the visual characteristics of the original line using considerably fewer data points.",
+    "keywords": [
+        "downsample",
+        "down-sample",
+        "sample",
+        "sampling",
+        "aggregate",
+        "decimation"
+    ],
+    "dependencies": {
+        "Highcharts": ">=2.3.0"
+    }
+}
