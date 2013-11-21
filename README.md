@@ -25,11 +25,12 @@ Additional demo is also available in [JSFiddle](http://jsfiddle.net/sveinn_st/FM
 Usage
 -----
 ```js
-series: {
+series: [{
   downsample: {
     threshold: 1000 // 0 disables downsampling for this series.
-  }
-}
+  },
+  data: // Your data (array of arrays with two values or array of numerical values)
+}]
 ```
 
 
