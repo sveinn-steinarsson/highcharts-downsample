@@ -12,8 +12,7 @@
     },
     "licenses": [
         {
-            "type": "MIT",
-            "url": "http://opensource.org/licenses/MIT"
+            "type": "MIT"
         }
     ],
     "description": "This plugin downsamples the data before rendering the chart. The purpose is to try retain the visual characteristics of the original line using considerably fewer data points.",
