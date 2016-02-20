@@ -34,6 +34,14 @@ series: [{
 ```
 
 
+Notes
+-----
+This plugin is mainly for downsampling line charts but might work for other types, e.g. area or column.
+The recommended input data format is array of arrays with two values. Array of numerical values
+is also supported but might be slower.
+Array of objects and range series are not supported!
+
+
 Known limitations
 -----
 * Does not support gaps (null values) in the data array.
@@ -65,14 +73,6 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 **Note:** I have not tested all these versions and some might have different or additional features.
 
 *(Please let me know if you make your own port of the LTTB algorithm so I can list it here.)*
-
-
-Notes
------
-This plugin is mainly for downsampling line charts but might work for other types, e.g. area or column.
-The recommended input data format is array of arrays with two values. Array of numerical values
-is also supported but might be slower.
-Array of objects and range series are not supported!
 
 
 License
